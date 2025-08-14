@@ -1,0 +1,16 @@
+{
+  "name": "kindness-ledger-filecoin-pipeline",
+  "version": "0.0.1",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "hash": "node scripts/hash_file.js ./demo/example.txt",
+    "upload": "node scripts/upload_ipfs.js ./demo/example.txt",
+    "retrieve": "node scripts/retrieve_via_gateway.js bafybeiexamplecid"
+  },
+  "dependencies": {
+    "multiformats": "^13.2.1",
+    "ipfs-http-client": "^60.0.0"
+  },
+  "devDependencies": {}
+}
