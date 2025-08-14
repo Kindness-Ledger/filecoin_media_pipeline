@@ -1,0 +1,52 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+coverage/
+dist/
+build/
+.cache/
+.tmp/
+.next/
+out/
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Archives
+*.zip
+
+# Node and build
+node_modules/
+dist/
+.cache/
+
+# Env and logs
+.env
+.env.local
+logs/
+*.log
+
+# Proof artifacts
+docs/proof/**/*.txt
+docs/proof/**/*.json
+
+# OS
+.DS_Store
